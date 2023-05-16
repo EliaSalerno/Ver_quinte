@@ -1,0 +1,94 @@
+[
+    {
+        "Id": "sha256:85c89cec11420868a8ca0ab13093c02bc07e2113cf31bd04b6b0e24cd8d2663c",
+        "RepoTags": [
+            "img1:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "sha256:4755c95a857c0326b7ec8d47625d1e9a74169505c3a40bdbedc94c5bc094f822",
+        "Comment": "",
+        "Created": "2023-05-12T07:38:38.067345847Z",
+        "Container": "2b7fa224de99d6e811be499ebbbf76807252c764d727a659cfdc28403f01c5fa",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "http_proxy=http://proxy:3128",
+                "https_proxy=http://proxy:3128"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "apk add micro"
+            ],
+            "Image": "sha256:4755c95a857c0326b7ec8d47625d1e9a74169505c3a40bdbedc94c5bc094f822",
+            "Volumes": null,
+            "WorkingDir": "/work",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "20.10.20",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "http_proxy=http://proxy:3128",
+                "https_proxy=http://proxy:3128"
+            ],
+            "Cmd": [
+                "/bin/sh"
+            ],
+            "Image": "sha256:4755c95a857c0326b7ec8d47625d1e9a74169505c3a40bdbedc94c5bc094f822",
+            "Volumes": null,
+            "WorkingDir": "/work",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 63755640,
+        "VirtualSize": 63755640,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/d82341cc759ee4de1066b66e8c53ae2195c2c3126ca03d121e2858fd30d7bcd7/diff:/var/lib/docker/overlay2/a50db98f7e364db42de117fe91b45e7e8e1417e958b7048c31ca13863fbb5b93/diff:/var/lib/docker/overlay2/de77d3dd4a49695d490dd7b6523a870fdab8cd9ac487e0b5f69d4a683204cbc6/diff:/var/lib/docker/overlay2/1f17e6e7e76f498634d73384316bde2caedac7b51142655c0e4fdb53a77ac716/diff:/var/lib/docker/overlay2/b51925575abcb6a24587a3fc37313f5a347d929a6bf4120e9c64e71d7f122e1d/diff",
+                "MergedDir": "/var/lib/docker/overlay2/bcd17c68cca938c8dc7789bf0c63b9a811b1368c97512ec1e8d87afff7642f45/merged",
+                "UpperDir": "/var/lib/docker/overlay2/bcd17c68cca938c8dc7789bf0c63b9a811b1368c97512ec1e8d87afff7642f45/diff",
+                "WorkDir": "/var/lib/docker/overlay2/bcd17c68cca938c8dc7789bf0c63b9a811b1368c97512ec1e8d87afff7642f45/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:bb01bd7e32b58b6694c8c3622c230171f1cec24001a82068a8d30d338f420d6c",
+                "sha256:861debc9fa489ec5db76d6e04eef19f7485836c4f576fc2af32634b37de5ab83",
+                "sha256:b587c29a343967aab5e99ae5f676c9791adb8b7fe0f517c2fb941376c7c3fab2",
+                "sha256:50780dd097f73dec6ef56d940554a1f8801fdf3d76245db1fd7f87aed3b45afa",
+                "sha256:3c02709466abad00501d8cf45124f97126c0632c499069a120b5678a64f32db7",
+                "sha256:dc667f8b9966951434b8e7e548fd7daf9dc02c21ae48e7d28f0c1832ef98d12e"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2023-05-12T09:38:38.202434537+02:00"
+        }
+    }
+]

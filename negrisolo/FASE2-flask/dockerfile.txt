@@ -1,0 +1,3 @@
+FROM img
+COPY prova2.py /
+CMD python3 -m flask --app prova2.py run --host 0.0.0.0

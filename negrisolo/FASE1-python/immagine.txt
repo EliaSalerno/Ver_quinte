@@ -1,0 +1,95 @@
+docker:~/verifica$ docker inspect img
+[
+    {
+        "Id": "sha256:dbc0ef2d5693c62dd7c44e8042b0bfda917c154b61fced37a198f4d54002a44f",
+        "RepoTags": [
+            "img:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "sha256:37823ed3247fd23e4d0d618a973f6befb2d45bd514e1c7c3357d020c6176d72d",
+        "Comment": "",
+        "Created": "2023-05-12T07:11:13.288344684Z",
+        "Container": "fb34bcf10c76260ceb9fd23a22d1d8c26a217bf9df96548db4710a08b5f9d65e",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "http_proxy=http://proxy:3128",
+                "https_proxy=http://proxy:3128"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "python3 -m pip install flask"
+            ],
+            "Image": "sha256:37823ed3247fd23e4d0d618a973f6befb2d45bd514e1c7c3357d020c6176d72d",
+            "Volumes": null,
+            "WorkingDir": "/work",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "20.10.20",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "http_proxy=http://proxy:3128",
+                "https_proxy=http://proxy:3128"
+            ],
+            "Cmd": [
+                "/bin/sh"
+            ],
+            "Image": "sha256:37823ed3247fd23e4d0d618a973f6befb2d45bd514e1c7c3357d020c6176d72d",
+            "Volumes": null,
+            "WorkingDir": "/work",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 78235234,
+        "VirtualSize": 78235234,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/99ad6a16636f3e7baec216999103446966c0bbe70adbd4dc03de11f5a126702b/diff:/var/lib/docker/overlay2/33c8eed06af0f6f2a207ecf693a4537335aecd8eb01935c65a86dff98e9c64af/diff:/var/lib/docker/overlay2/85b42c6c10f81c772f5f9f4e3d1f0ff4188f045c0460f69483fa8e2e804df1a6/diff:/var/lib/docker/overlay2/8b19f97933a3725715389cd7744086af0a5ef4b3e00c8a4f1e41f805a97df52f/diff:/var/lib/docker/overlay2/2ba57550e3e3c523aa4a29e4eb857b754d258e28a8ab5b2a2cd0b80876652712/diff",
+                "MergedDir": "/var/lib/docker/overlay2/29e283450eef8780cbba51b2ff0ea3a96ff43f9842b215b7a13b4dd77299a73e/merged",
+                "UpperDir": "/var/lib/docker/overlay2/29e283450eef8780cbba51b2ff0ea3a96ff43f9842b215b7a13b4dd77299a73e/diff",
+                "WorkDir": "/var/lib/docker/overlay2/29e283450eef8780cbba51b2ff0ea3a96ff43f9842b215b7a13b4dd77299a73e/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:bb01bd7e32b58b6694c8c3622c230171f1cec24001a82068a8d30d338f420d6c",
+                "sha256:54fe0ae68bc4e543c63d8c940e7e34f7dbaf9c2b6b0609f02921850eb13d4591",
+                "sha256:2324ae1b6db092cb3d0a38b35f8736fcc17cc31739aa5243c52af05eb13e40c9",
+                "sha256:a4ee3af3f48dbc1608021401a14dcd9b7e56c53489fe0e07a6528d913ed04a41",
+                "sha256:ee0d369cf1fc617f37ffcd6c716a7ebd64b901aeff9dfe43a83ae957ac45c2c1",
+                "sha256:e0f28acaeedf8f4baff7e2e541b9944fa7b156be6f0173f9bccf97c022f646fe"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2023-05-12T09:11:13.372212948+02:00"
+        }
+    }
+]

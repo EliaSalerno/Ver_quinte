@@ -1,0 +1,9 @@
+FROM alpine
+WORKDIR work
+env http_proxy=http://proxy:3128
+env https_proxy=http://proxy:3128
+RUN apk update
+RUN apk add python3
+RUN apk add iputils
+RUN python3 -m ensurepip
+RUN python3 -m pip install flask

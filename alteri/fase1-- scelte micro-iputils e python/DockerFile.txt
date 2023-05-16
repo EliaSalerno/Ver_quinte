@@ -1,0 +1,8 @@
+FROM alpine
+env http_proxy=http://proxy:3128
+env https_proxy=http://proxy:3128
+WORKDIR /work
+RUN apk update
+RUN apk add python3
+RUN apk add iputils
+RUN apk add micro
