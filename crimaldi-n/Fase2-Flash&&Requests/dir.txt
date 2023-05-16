@@ -1,0 +1,10 @@
+PS C:\Users\crima\Downloads\Fase2-Flash&&Requests\Fase2> dir
+
+
+    Directory: C:\Users\crima\Downloads\Fase2-Flash&&Requests\Fase2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         5/12/2023   8:49 AM            211 Dockerfile
+-a----         5/12/2023   8:56 AM            113 prova.py

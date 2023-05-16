@@ -1,0 +1,6 @@
+12/05/2023  09:18    <DIR>          .
+12/05/2023  09:32    <DIR>          ..
+12/05/2023  09:47               197 Dockerfile
+12/05/2023  09:19               124 prova.py
+               2 File            321 byte
+               2 Directory  125.793.255.424 byte disponibili

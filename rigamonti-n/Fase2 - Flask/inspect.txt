@@ -1,0 +1,94 @@
+PS D:\Tommaso\Superiori\TPS\Quinta\Verifica_Docker\Fase2> docker inspect 224ead6db1b6
+[
+    {
+        "Id": "sha256:224ead6db1b6c6f135fe8db42c41f3e4bb6f35379c964831d14a9532a9058e74",
+        "RepoTags": [
+            "fase2:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2023-05-12T07:43:08.3005985Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "python3 -m flask --app verificaFlask.py run --host 0.0.0.0"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/work",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 80791773,
+        "VirtualSize": 80791773,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/iorn0m5pmo27ija01tdqv4o4l/diff:/var/lib/docker/overlay2/j8ozzhdjrk0luv3cuycwc67p8/diff:/var/lib/docker/overlay2/qafti2b4q81sfsov6f1qmzi8h/diff:/var/lib/docker/overlay2/u13n1iqieynwb8u4eark81c8j/diff:/var/lib/docker/overlay2/meah1ztwbo3jsxjf5l14783sy/diff:/var/lib/docker/overlay2/wlvwaaqiltamjmhu5cczasea9/diff:/var/lib/docker/overlay2/qcwjyf56hj534cswe7cqoi08z/diff:/var/lib/docker/overlay2/2qf97ohv4s2v60dg3ixcr2ir9/diff:/var/lib/docker/overlay2/t6uwk3eq0z5d8kry0694gtt1u/diff:/var/lib/docker/overlay2/zvb4cozupdkyj8r65d2idz7rs/diff:/var/lib/docker/overlay2/26c087b5626128b3e353a3a4fecc4747894331db7dbb50eef495bb8f30e1c647/diff",
+                "MergedDir": "/var/lib/docker/overlay2/74o8j3veex7ixk31erd4cpqye/merged",
+                "UpperDir": "/var/lib/docker/overlay2/74o8j3veex7ixk31erd4cpqye/diff",
+                "WorkDir": "/var/lib/docker/overlay2/74o8j3veex7ixk31erd4cpqye/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:bb01bd7e32b58b6694c8c3622c230171f1cec24001a82068a8d30d338f420d6c",
+                "sha256:11ba0017324f29916700c1b395f6870ba8134e8213c318f66f60ad5a91ef3c71",
+                "sha256:4d13c1d9028a74c03cb09492cac06983c6f04f58adb6f5866375f9fcfe7b30a7",
+                "sha256:de33b151f64509ae6ecf06bf505bcd6028841affe4ad0207b7823ab9a95057e8",
+                "sha256:e86b7297e55950d7bc12736996799d4157688dc95408c45783935d19d496b5db",
+                "sha256:9cc8813a5c45c5f647298c9510759243da7ebf47cee27767defeead4faf52226",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:789ec6bef5631a1d1c74ed7bfb4e617e390f58b37f812d574d41ce2b41ff56be",
+                "sha256:60bd268edc9a0c8bce78f3d14cfc5dfe612a0d9085511d9c649ede8d3c2df93c",
+                "sha256:49bfc151ce350d6ff8b82f8618facde630f0b5c98c68c38d73ca8e9970fe3933",
+                "sha256:952dc57f4b42b29d90a096ab46d15ce6cd53da91fc1b82427a6f4bb8c64d1e60",
+                "sha256:e0a8e95c9dec42c30c88103ed4f8d66163a7c7486576827855b26e51f19e1975"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2023-05-12T07:43:09.0747939Z"
+        }
+    }
+]

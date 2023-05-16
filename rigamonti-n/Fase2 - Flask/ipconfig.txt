@@ -1,0 +1,51 @@
+PS D:\Tommaso\Superiori\TPS\Quinta\Verifica_Docker\Fase2> ipconfig
+
+Configurazione IP di Windows
+
+
+Scheda Ethernet Ethernet:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda Ethernet vEthernet (Default Switch):
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::eaea:c36c:a665:1be%20
+   Indirizzo IPv4. . . . . . . . . . . . : 172.18.144.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.240.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda Ethernet vEthernet (WSL):
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::a67c:ecbc:db6f:fde4%58
+   Indirizzo IPv4. . . . . . . . . . . . : 172.30.0.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.240.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda Ethernet Ethernet 2:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::775c:bf00:bab0:c73b%8
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.56.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda LAN wireless Connessione alla rete locale (LAN)* 1:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda LAN wireless Connessione alla rete locale (LAN)* 2:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda LAN wireless Wi-Fi:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::194b:5976:ae34:396f%22
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.43.244
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . : 192.168.43.1

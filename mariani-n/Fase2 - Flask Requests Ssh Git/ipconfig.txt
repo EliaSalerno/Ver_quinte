@@ -1,0 +1,46 @@
+Configurazione IP di Windows
+
+
+Scheda Ethernet Ethernet 2:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda Ethernet McAfee VPN:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda Ethernet Ethernet 3:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::2c3b:f1b:f565:4132%10
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.56.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda LAN wireless Connessione alla rete locale (LAN)* 3:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda LAN wireless Connessione alla rete locale (LAN)* 4:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda LAN wireless Wi-Fi:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::1de:ae7e:e27f:63f8%3
+   Indirizzo IPv4. . . . . . . . . . . . : 172.20.10.2
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.240
+   Gateway predefinito . . . . . . . . . : 172.20.10.1
+
+Scheda Ethernet vEthernet (WSL):
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::1fd8:1dc6:22df:fac3%68
+   Indirizzo IPv4. . . . . . . . . . . . : 172.22.0.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.240.0
+   Gateway predefinito . . . . . . . . . :

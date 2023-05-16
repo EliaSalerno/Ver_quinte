@@ -1,0 +1,57 @@
+Configurazione IP di Windows
+
+
+Scheda Ethernet Ethernet 5:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione: intranet
+
+Scheda Ethernet vEthernet (Default Switch):
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::4d2e:9722:86ef:9db%83
+   Indirizzo IPv4. . . . . . . . . . . . : 172.22.0.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.240.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda Ethernet vEthernet (WSL):
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::7c0d:e0b2:9edd:6eed%98
+   Indirizzo IPv4. . . . . . . . . . . . : 172.21.208.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.240.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda Ethernet VirtualBox Host-Only Network:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::67c9:c047:9b00:a0e2%36
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.56.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda Ethernet VirtualBox Host-Only Network #2:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::eea6:94c5:5112:2e66%23
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.143.2
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda LAN wireless Connessione alla rete locale (LAN)* 16:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda LAN wireless Connessione alla rete locale (LAN)* 17:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda LAN wireless Wi-Fi 5:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::c406:a81e:1376:3fe6%35
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.43.153
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . : 192.168.43.1

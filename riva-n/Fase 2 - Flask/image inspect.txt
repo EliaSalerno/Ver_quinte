@@ -1,0 +1,92 @@
+[
+    {
+        "Id": "sha256:5d605e2e5e8f7e14af00561d3bcb5c6266df27272f8c15614c826d13c59893b8",
+        "RepoTags": [
+            "img3:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2023-05-12T07:25:15.1569968Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "python3 -m flask --app provaflask.py run --host 0.0.0.0"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/work",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 81929886,
+        "VirtualSize": 81929886,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/zkooer9d31sbmfy939rntcj2u/diff:/var/lib/docker/overlay2/5imyjhax6lyexmc2f3jr4orgn/diff:/var/lib/docker/overlay2/zdntf7dxkrsroka7s1i1q0ueh/diff:/var/lib/docker/overlay2/pzxj2kgaom97xt7snwc5f1hvz/diff:/var/lib/docker/overlay2/hkcejgwjg2mhl7lfvhxkdjy2x/diff:/var/lib/docker/overlay2/hivmsanjgzy4wnc5d2znro1ze/diff:/var/lib/docker/overlay2/s7v9egxnqyrhn3xisvk6vrv4b/diff:/var/lib/docker/overlay2/iwyghg7gwxu52d1kv2ktio4lz/diff:/var/lib/docker/overlay2/r97wua6g0zqzxh9agi8txh9r8/diff:/var/lib/docker/overlay2/a928036a62e8b93ea85ea770c95e4d3b3c180dc210e03f2a89c21de539de20d8/diff",
+                "MergedDir": "/var/lib/docker/overlay2/mweiqqls8wf2nj1lrtk74a8sl/merged",
+                "UpperDir": "/var/lib/docker/overlay2/mweiqqls8wf2nj1lrtk74a8sl/diff",
+                "WorkDir": "/var/lib/docker/overlay2/mweiqqls8wf2nj1lrtk74a8sl/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:bb01bd7e32b58b6694c8c3622c230171f1cec24001a82068a8d30d338f420d6c",
+                "sha256:a0611524323fdfd9d603afb99d471237fb7eb2c809fb169cc82368be89aa3275",
+                "sha256:01fe68ac5eb947b8c3163a33eab6ee51033a5d879ed155ea741ef2d4a20b1a18",
+                "sha256:5448f872c8dd245b83148ca0f7fbbaeb88efcdc88e5eeae0e56364578e0773d6",
+                "sha256:ac6413bae4cf7a1322ce7ce5757168ce7d6c3c687b4ff2ac3e2a6b4f247b55cf",
+                "sha256:2ca08adf40790202d232a92f4f20ba6268957106fa8557dbf9b5217a73007016",
+                "sha256:89cae4a25652609d4300642f807492c2339076e9d0fe7c36e89e0c857e5367f9",
+                "sha256:57fca6112236b3669b3727f24d6d60072582adddb48bbbab985128386e47adc0",
+                "sha256:3366117455bcf6da1e831b9028fa252bb688cd3d6e989270e1c31a348e9820d9",
+                "sha256:b61e4d928dd5b5fe2c9c066b3fa9fb3a9562898a3fee137097cd08d473db9d43",
+                "sha256:7e8fcf4dab940b2d4aad7c4039e39b132d8633bde8e1c1f6f5e84e361c1e5085"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2023-05-12T07:25:37.8394557Z"
+        }
+    }
+]

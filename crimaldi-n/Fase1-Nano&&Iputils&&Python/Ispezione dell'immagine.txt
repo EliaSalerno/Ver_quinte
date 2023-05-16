@@ -1,0 +1,13 @@
+PS C:\Users\crima\Downloads\FASE 1> docker build -t img1 .
+[+] Building 5.9s (6/6) FINISHED
+ => [internal] load build definition from Dockerfile                   0.0s
+ => => transferring dockerfile: 161B                                   0.0s
+ => [internal] load .dockerignore                                      0.0s
+ => => transferring context: 2B                                        0.0s
+ => [internal] load metadata for docker.io/library/alpine:latest       0.0s
+ => CACHED [1/2] FROM docker.io/library/alpine                         0.0s
+ => [2/2] RUN apk update && apk add iputils-ping && apk add nano && a  5.7s
+ => exporting to image                                                 0.2s
+ => => exporting layers                                                0.2s
+ => => writing image sha256:3725ee2f51cd626ffe08967719cba62f36dbd7cc4  0.0s
+ => => naming to docker.io/library/img1                                0.0s

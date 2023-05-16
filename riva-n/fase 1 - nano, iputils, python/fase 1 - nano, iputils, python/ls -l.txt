@@ -1,0 +1,4 @@
+$ ls -l
+total 5
+-rw-r--r-- 1 AzureAD+ANDREARIVA5IA_STUDEN 4096 129 May 12 08:21  Dockerfile
+drwxr-xr-x 1 AzureAD+ANDREARIVA5IA_STUDEN 4096   0 May 12 08:26 'fase 1 - nano, iputils, python'/

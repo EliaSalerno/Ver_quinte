@@ -1,0 +1,6 @@
+    Directory: C:\Users\crima\Downloads\FASE 1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         5/12/2023   8:22 AM            124 Dockerfile

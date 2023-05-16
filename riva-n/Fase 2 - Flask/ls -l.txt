@@ -1,0 +1,5 @@
+$ ls -l
+total 6
+-rw-r--r-- 1 AzureAD+ANDREARIVA5IA_STUDEN 4096 183 May 12 09:29  Dockerfile
+drwxr-xr-x 1 AzureAD+ANDREARIVA5IA_STUDEN 4096   0 May 12 09:32 'Fase 2 - Flask'/
+-rw-r--r-- 1 AzureAD+ANDREARIVA5IA_STUDEN 4096 113 May 12 09:24  provaflask.py

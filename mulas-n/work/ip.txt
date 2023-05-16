@@ -1,0 +1,57 @@
+Configurazione IP di Windows
+
+
+Scheda Ethernet Ethernet:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda Ethernet Ethernet 2:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::73b4:1a11:c2a9:61b5%16
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.56.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda LAN wireless Connessione alla rete locale (LAN)* 1:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda LAN wireless Connessione alla rete locale (LAN)* 2:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:
+
+Scheda Ethernet VMware Network Adapter VMnet1:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::a464:4bb1:83ce:285f%9
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.247.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda Ethernet VMware Network Adapter VMnet8:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::ee98:6830:5d49:14f1%7
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.131.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . :
+
+Scheda LAN wireless Wi-Fi:
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::35a7:cefc:81a:8735%24
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.43.248
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . : 192.168.43.1
+
+Scheda Ethernet vEthernet (WSL):
+
+   Suffisso DNS specifico per connessione:
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::2bd3:1676:3089:1ccf%30
+   Indirizzo IPv4. . . . . . . . . . . . : 172.31.224.1
+   Subnet mask . . . . . . . . . . . . . : 255.255.240.0
+   Gateway predefinito . . . . . . . . . :

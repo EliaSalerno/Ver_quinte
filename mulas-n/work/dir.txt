@@ -1,0 +1,12 @@
+PS D:\quinta\Tps\docker\work> dir
+
+
+    Directory: D:\quinta\Tps\docker\work
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/05/2023     08:15            198 Dockerfile
+-a----        12/05/2023     08:17            113 prova.py
+-a----        12/05/2023     08:22              0 fasi.docx
+-a----        12/05/2023     08:20           2172 ip.txt

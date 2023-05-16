@@ -1,0 +1,4 @@
+$ ls -l
+total 5
+-rw-r--r-- 1 AzureAD+ANDREARIVA5IA_STUDEN 4096 115 May 12 08:45  Dockerfile
+drwxr-xr-x 1 AzureAD+ANDREARIVA5IA_STUDEN 4096   0 May 12 09:12 'Fase 2 - Git, SSH'/
