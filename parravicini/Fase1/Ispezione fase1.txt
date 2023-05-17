@@ -1,0 +1,85 @@
+C:\Users\gabri\Fase1>docker inspect img1
+[
+    {
+        "Id": "sha256:4d53172bf3a8c904c99bac146f8708694c99bf22e97947c62ecaf2a2c7df8020",
+        "RepoTags": [
+            "img1:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2023-05-12T06:48:39.777982528Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/sh"
+            ],
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/work",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 51260886,
+        "VirtualSize": 51260886,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/m58d8h0tkyj4pz8bupc2rizdb/diff:/var/lib/docker/overlay2/0w9ench7lepownmelrdz2nu0m/diff:/var/lib/docker/overlay2/i8cdys6rkm9kobol503w6b3uq/diff:/var/lib/docker/overlay2/ldbu0djvqsexge3zyq7g3t2vr/diff:/var/lib/docker/overlay2/d1a0ab19419e4c56cbcd8ecf6182977ca4de5a89abbe4ed2d87846eb969ef40d/diff",
+                "MergedDir": "/var/lib/docker/overlay2/qciz64qw3whs0tgih17vmox4t/merged",
+                "UpperDir": "/var/lib/docker/overlay2/qciz64qw3whs0tgih17vmox4t/diff",
+                "WorkDir": "/var/lib/docker/overlay2/qciz64qw3whs0tgih17vmox4t/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:bb01bd7e32b58b6694c8c3622c230171f1cec24001a82068a8d30d338f420d6c",
+                "sha256:425d2da7c38767bea87cb7d7759764fe61e278c09d5c4798ec8dabcfa0fafee5",
+                "sha256:6d46bbcc335a4529246d5aad50056e195ed0894dd463f55310365f004acfa865",
+                "sha256:c4c23157dee69f4f0592751ebd21bb18faa3c18b57b5b39cddd0a438d4ea5ef7",
+                "sha256:d529fa2619847e0fefd481072f4752d4d51d236291c3ef890ef4bad93bcb6731",
+                "sha256:c948a116c73cfd00928c70e79594da758e56e76a52cb9a4103c7b1b1e52a76ee"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2023-05-12T06:48:39.815826253Z"
+        }
+    }
+]
