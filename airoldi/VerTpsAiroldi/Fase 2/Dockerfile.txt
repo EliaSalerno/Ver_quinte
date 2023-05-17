@@ -1,0 +1,7 @@
+FROM img1
+WORKDIR /work
+RUN apk update
+COPY provaflask.py .
+RUN python3 -m ensurepip
+RUN python3 -m pip install flask
+CMD python3 -m flask --app provaflask.py run --host 0.0.0.0
